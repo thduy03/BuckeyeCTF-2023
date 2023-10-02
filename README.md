@@ -1,1 +1,0 @@
-# BuckeyeCTF-2023
