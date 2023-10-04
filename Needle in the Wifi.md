@@ -3,7 +3,8 @@
 ![enter image description here](https://i.imgur.com/gP0Rqhq.png)
 ### Solution
 We received a file named `frames.pcap`. We can open it with Wireshark:
-![enter image description here](https://i.imgur.com/RxBpbT8.png)
+![image](https://github.com/thduy03/BuckeyeCTF-2023/assets/126741377/1acd9ec7-1b92-4d34-ab20-74c90b0256b4)
+
 
 We can immediately see that there are a lot of packets containing the `SSID` encrypted in `base64`.  So the first thing we need to do is export all `SSID` values from all packets using `tshark` command: 
 `tshark -r frames.pcap -T fields -e wlan.ssid > output.txt`
