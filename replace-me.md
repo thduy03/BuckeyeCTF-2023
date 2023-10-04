@@ -1,4 +1,4 @@
-## Replace me
+## replace-me
 ![image](https://github.com/thduy03/BuckeyeCTF-2023/assets/126741377/34add0fa-3e5b-4cc3-ac50-9b77751a5f10)
 ### Solution
 We received a file named `dist`. First, we need to find which type is this file using `file`:
